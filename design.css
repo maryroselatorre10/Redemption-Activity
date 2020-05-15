@@ -1,0 +1,147 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    overflow-x: hidden;
+    background-image: url(./image/bgimage7.jpg);
+    text-align: center;
+}
+.generate{
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+    box-shadow:  -3px -3px 1px #05f786ab, 3px 3px 15px #0a0909;
+    height: 30x;
+    width: 230px;
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.822);
+    border-radius: 5px;
+    color: #000000;
+}
+.specific{
+    position: relative;
+    bottom: 270px;
+    left: 880px;
+    font-family: cursive;
+    box-shadow:  -3px -3px 1px #05f786ab, 3px 3px 15px #0a0909;
+    height: 25px;
+    width: 270px;
+    background-color: rgba(128, 128, 128, 0.822);
+    border-radius: 5px;
+    color: #000000;
+}
+.gen{
+    position: relative;
+    bottom: 350px;
+    left: 620px;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    background: rgb(214, 214, 214);
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow:  -7px -7px 2px 0 rgba(252, 253, 250, 0.7),  7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.gen:hover{
+    background-color: rgb(185, 252, 2);
+    box-shadow: inset -7px -7px 20px 0 rgba(250, 248, 248, 0.7), inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+.show{
+    position: relative;
+    text-decoration: none;
+    left: 600px;
+    bottom: 230px;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    background: rgb(214, 214, 214);
+    box-shadow: -7px -7px 2px 0 rgba(255, 255, 255, 0.7), 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 2px;
+}
+.show:hover{
+    background-color: rgb(6, 2, 252);
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.reset{
+    position: relative;
+    text-decoration: none;
+    left: 650px;
+    bottom: 230px;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    background-color:rgb(214, 214, 214);
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow:  -7px -7px 2px 0 rgba(255, 255, 255, 0.7),  7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+    font-family: cursive;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000000; 
+    letter-spacing: 2px;
+    
+    
+}
+.reset:hover{
+    background-color: rgb(156, 7, 144);
+    box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7), inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+p{
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 290px;
+    border-radius: 35px;
+    background-color: rgba(55, 255, 5, 0.034);
+    box-shadow:  -7px -7px 2px 0 rgba(255, 255, 255, 0.7),  7px 7px 1px 0 rgba(0, 0, 0, 0.2);
+    right: 200px;
+    height: 500px;
+
+}
+#colors{
+    position: relative;
+    bottom: 260px;
+    left: 630px;
+    height: 30px;
+    width: 300px;
+    box-shadow:   -3px -3px 5px rgb(11, 11, 12), 3px 3px 5px #070707b6;
+    font-family: cursive;
+    background-color: rgb(245, 227, 250);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.img{
+    position: relative;
+    top: 20px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: -3px -3px 5px rgb(11, 11, 12), 3px 3px 15px #0b0f1190;
+}
+.Name{
+    position: relative;
+    top: 15px;
+    font-family: Felix Titling;
+    font-size: 35px;
+    color: rgb(253, 4, 37);
+    text-shadow:  -2px -2px 2px rgb(7, 7, 7), 3px 3px 15px #fdfcfc;;
+    
+}

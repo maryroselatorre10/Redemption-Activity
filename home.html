@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="generate.js">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <h1 class="Name">MOTOR BIKE COLOR CHANGER</h1>
+            <img class="img" src="./image/received_215814376145118.png">
+            <div class="mid-container">
+                <p class="generate">Generate Random Colors</p>
+                <button class="gen" onclick="Generate()">Generate</button>
+            </div>
+            <div class="bottom-container">
+                <p class="specific">Generate Specific Colors</p>
+                <select name="Colors" id="colors">
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="White">White</option>
+                    <option value="Gray">Gray</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Black">Black</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Red">Red</option>
+                    <option value="Violet">Violet</option>
+                </select>
+            </div>   
+            <button class="show" onclick="Show()">Show</button>
+            <button class="reset" onclick="Reset()">Reset</button>
+       </div>
+    </div>
+    <script src="generate.js"></script>
+</body>
+</html>

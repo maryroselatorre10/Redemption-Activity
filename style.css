@@ -1,0 +1,76 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./image/bg3image.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.design{
+    position: relative;
+    color: rgb(46, 240, 149);
+    font-size: 29px;
+    width: 300px;
+    right: 600px;
+    bottom: 60px;
+    font-family: Felix titling;
+    
+}
+.ninja{
+    position: relative;
+    bottom: 50px;
+    right: 450px;
+    width: 550px;
+    
+    
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0feee3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: solid;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 0px;
+    border-radius: 15px;
+    font-family: broadway;
+    right: 130px;
+    bottom: 50px;
+}
+.btn:hover{
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+    
+}
+.btn:active{
+    background-color: rgb(136, 136, 131);
+    box-shadow: 0 8px rgb(174, 228, 221);
+    transform: translateZ(7px);
+
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    left: 1000px;
+    max-width: 900px;
+    padding: 60px;
+    top: 50px;
+    border-radius: 25px;
+    
+}
+.helmet1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    right: 450px;
+    bottom: 50px;
+    border-radius: 15px;
+}
